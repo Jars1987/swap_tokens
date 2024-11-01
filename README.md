@@ -18,17 +18,17 @@ store a helper function (transfer_tokens) to avoid repetition. Our Offer
 account, where our offer (data) will be saved lives in our offer.rs file inside
 the state folder.
 
-- Instructions //_instruction handlers_
-  - Shared // _helper function - transfer_tokens_
+- Instructions --> _instruction handlers_
+  - Shared --> _helper function - transfer_tokens_
   - Make Offer
-    - Accounts // _Maker(signer), token_mint (a & b), maker_token_acccount_a,
+    - Accounts --> _Maker(signer), token_mint (a & b), maker_token_acccount_a,
       offer, vault, system program, token program, associated account_
-    - Functions //_ end_offered_tokens_to_vault & save_offer_
+    - Functions --> _ end_offered_tokens_to_vault & save_offer_
   - Take Ofeer
-    - Accounts /// _Taker(signer), Maker, token_mint (a & b),
+    - Accounts --> _Taker(signer), Maker, token_mint (a & b),
       taker_token_Account (a & b), maker_token_account_b, offer, vault, system
       program, token program, associated account_
-    - Functions // _send_wanted_tokens_to_maker & withdraw_and_close_vault_
+    - Functions --> _send_wanted_tokens_to_maker & withdraw_and_close_vault_
 - State
   - offer.rs
 - constants
